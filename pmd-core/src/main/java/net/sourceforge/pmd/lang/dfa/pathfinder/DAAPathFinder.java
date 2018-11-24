@@ -23,7 +23,7 @@ public class DAAPathFinder {
      * Maximum loops to prevent hanging of PMD. See
      * https://sourceforge.net/p/pmd/bugs/1393/
      */
-    private static final int MAX_LOOPS = 100;
+    private static final int MAX_LOOPS = 1000;
 
     private DataFlowNode rootNode;
     private Executable shim;
